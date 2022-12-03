@@ -1,11 +1,10 @@
 # Omdena Paris and France Chapter-project-repository 
 
-
 # [Conversational AI Chatbot for the Elderly and Disabled using NLP]
 
-![AI Chatbot](chatbot.png "AI Chatbot") 
+![AI Chatbot](src/chatbot.png "AI Chatbot") 
 ## Contribution Guidelines
-- Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
+- Project Managment Page [project structure](https://www.notion.so/omdenadocs/Paris-France-Chapters-Conversational-AI-Chatbot-for-the-Elderly-and-Disabled-PROJECT-MANAGEMEN-d652350b35fb4d11aa1478731acac2f2)  
 - If you're creating a task, Go to the task folder and create a new folder with the below naming convention and add a README.md with task details and goals to help other contributors understand
     - Task Folder Naming Convention : _task-n-taskname.(n is the task number)_  ex: task-1-data-analysis, task-2-model-deployment etc.
     - Create a README.md with a table containing information table about all contributions for the task.
