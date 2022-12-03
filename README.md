@@ -1,8 +1,7 @@
-# chapter-project-repository-template
-Use this Repository as a template for creating Local Chapter Repositories
+# Omdena Paris and France Chapter-project-repository 
 
 
-# [Chapter Challenge Name]
+# [Conversational AI Chatbot for the Elderly and Disabled using NLP]
 
 
 ## Contribution Guidelines
