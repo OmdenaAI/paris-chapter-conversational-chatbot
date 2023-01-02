@@ -1,5 +1,0 @@
-streamlit==1.16.0
-streamlit-chat==0.0.2.1
-pandas==1.5.2
-openai==0.25.0
-jsonschema==4.17.3
