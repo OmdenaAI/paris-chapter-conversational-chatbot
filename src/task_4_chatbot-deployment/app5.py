@@ -13,7 +13,7 @@ from PIL import Image
 
 
 
-openai.api_key = "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"
+openai.api_key = "Your API Key"
 
 
 #background images
