@@ -11,6 +11,35 @@ import json
 
 openai.api_key = "API Key"
 
+# Background image
+
+img=Image.open("img1.jfif")
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://images.unsplash.com/photo-1501426026826-31c667bdf23d");
+background-size: cover;
+background-position: left;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+[data-testid="stSidebar"] > div:first-child {{
+background-image: url("data:image/png;base64,{img}");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}}
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+[data-testid="stToolbar"] {{
+right: 2rem;
+}}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
 df=json.load(open('model_data.json','rb'))
 
 
@@ -31,7 +60,9 @@ def generate_reply(df):
 if "history" not in st.session_state:
     st.session_state.history = []
 
-st.title("Omdena Chatbot")
+st.title("Omdena-Paris")
+st.header("Conversational AI Chatbot for Elderly and Disabled")
+st.subheader("GPT-3's 'text-davinci-003 model'")
 
 def get_text():
     input_text=st.text_input("TALK TO THE BOT", key="input_text")
