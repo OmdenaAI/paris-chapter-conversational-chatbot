@@ -17,11 +17,11 @@ openai.api_key = "Your API Key"
 
 
 #background images
-img=Image.open("img1.jfif")
+img=Image.open("back.jpg")
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://images.unsplash.com/photo-1501426026826-31c667bdf23d");
+background-image: url("https://wallpx.com/thumb/2020/11/green-gradient-simple-minimalistic-364.jpg");
 background-size: cover;
 background-position: left;
 background-repeat: no-repeat;
